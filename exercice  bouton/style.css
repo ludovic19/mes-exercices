@@ -1,0 +1,41 @@
+body{
+    background-color:#18181E ; /* */
+    font-family: sans-serif; 
+    /* sans apostrophe car enregistrée */
+    
+}
+/* nav{
+    display: flex;
+    flex-direction: column;
+} */
+h1{
+    color: #fff;
+    margin: 0 auto; 
+    font-size: 2em;
+    /**/text-align: center;
+}
+.btn{
+    /**/display: block;
+    /* width: 300px;
+    height: 100px; */
+    padding: 20px 80px;
+    margin: 20px auto;
+    background-color: rgb(255, 209, 123);
+    border: none;
+    /**/outline: none;/*apparait au clic*/
+    /**/cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 6px #efa124;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;/*pour maitriser l'animation*/
+}
+.btn:hover{
+    box-shadow: 0 3px #efa124;
+    top: 2px
+}
+.btn:active{
+    box-shadow: 0 0 #efa124;
+    top:4px
+}

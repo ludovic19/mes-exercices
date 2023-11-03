@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+}
+.card{
+    width: 70%;
+    height: auto;
+    /* width: 600px;
+    height: 600px; */
+    background-color: #f1f1f1;
+    border:1px solid #000;
+
+}
+img{
+    width: 100%;
+    
+   
+}
+.bloc-image{
+     height: 70%;
+     width: 100%;
+     overflow: hidden;
+}
+/* dans la classe card cibler les h3 */
+.card h3{
+    display: block;
+    padding: 10px ;
+}
+.card p{
+    padding: 0 10px 10px 10px ;
+}
+.card hr{
+    margin-bottom: 15px;
+}
+.card a{
+    padding: 0px 10px;
+    color:#000;
+    text-decoration: none;
+
+}

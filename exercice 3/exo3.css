@@ -1,0 +1,156 @@
+body{
+    height:100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.accueil{
+    width: 100%;
+    height: 100%;
+    /* utiliser un bg color sous bg img au cas ou l'image ne se telecharge pas indique au user quil manque une img */
+    background-color: #333;
+    background-image: url("../ressources/paysage\ campagne.jpg");
+    background-position: center;
+    /* top right - 80% 90% xy top pour pas de repetition si hauteur trop grde */ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* pour etirer l'img si un peu trop courte mais perte de qualité */
+
+
+
+    /* remplacer par
+    background no-repeat center / cover #333 url(...) */
+}
+
+/*  ------- TEXTE ------- */
+
+/* 
+font : style weight size / height  family
+ => font-style : italic
+    font weight : bold de 100 a 900
+    font size
+    line-height : 1 Ou 2 (hauteur de ligne 
+    font family
+
+    pour family pas de guillemets si deja intégrer si par nous alors guillemets
+
+    text-align : center right left justify pour avoir un bloc droit
+    white-space : nowrap empeche le retour a la ligne 
+    text-transform : uppercase (tout maj) capitalize( maj a chaquemot) lowercase miniscule
+    text-decoration : underline overline linetrough
+    letter-spacing :pour separer des letters resserrer en valeur negative
+*/ 
+
+/* OMBRE */
+
+
+/* BOX SHADOW : x y dose de flou (serrée a diffuse) étendue  couleur inset (pour ombre a linterieur
+
+box shadow 0 0 10px rgba(0,0,0,0.5) (marche sans border
+
+text-shadow 0 0 10px rgba(0,0,0,0. pour ombrfe sur le texte
+*/
+
+
+/* bouttons */
+/* button lien a ou div pour accessibilité button
+
+une div .btn
+display inline-block
+textalign: center
+padding10 15px
+cursor: pointer
+border radius 3px
+bcgcolor
+color f1f1f1
+margin 5px
+
+
+outline quand on clikn(button)
+ ajouter target="_blank" (a) apres href pour ouc=vrir une autre page au clik href=url direction
+
+*/
+
+/* code de qualite
+. facile a lire et comprendre => commentaires var claires
+. reutilisable bien segmenté
+. bonne structure html (indenter
+
+/* ------------3 PILIERS------------ */
+/* 
+responsive
+pour tous les ecrans
+media querries
+unité de mesures
+img responsive
+mobile ou desktop first (sur quel appareil va etre utilisé en majorité en premier)
+text responsive
+
+performance
+fichiers légers
+optimiser images (le plus lourd)
+compresser (separer les espaces pour les ordi)
+processeur css (sass)
+compatibilité sur tous les navigateurs */
+
+/* h1 avec mots clé du domaine du site */
+
+
+/* specificité
+
+balise classes ids style inline(deprecie) !important(rare)
+
+
+*/
+
+/* heritage
+ si propriété donnee aux parents lenfants la prend aussi
+ color fontsize (voir liste) which propertiez are inherited voir en bas de page mdn
+*/
+
+/*
+ =============================================================*/
+/* LES POSITIONS cours 48 */
+/* =========================================================== */
+
+/* 
+UNITE MESURES
+    rem = x*16 px
+    em cherche un parent avec font size sinon remonte jusqau element route du html = 16px
+
+ */
+
+ /* pseudoclass
+ 
+ :active quand jappuie sur clik
+ :hover au survol
+ :focus (sur input) pour remplir au clik (accessible avec tab)
+ :checked (checkbox) pour agrandir au click ou lancer une animation
+ :visited (changer couleur du lien quand deja vu)
+ li:last-child pour iser le dernier element de la list 
+ li:nth-child(x) vise les elements de meme niveau et selectionne le xieme (odd pour impair, even, )
+ :not(class) exclue un elem ou type dun ensemble
+ */
+
+ /* 
+ border radius hgbd hdbg_  x / y
+ voir fancy radius pour gérer les formes
+ 
+ */
+
+ /*pseudo element 
+ elem::first-letter pour modifier la premiere lettre
+ ::first-line (rare)
+ ::before
+ ::after pour ajouter contenu avant ou apres sans créer de noeud
+ => initialiser avec propriété content:''(vide mais siajouter ça affiche)
+ .class::selection{background-color: }pour changer la couleur de selection (surligner)
+
+ consulter pseudo class ou pseudo element list mdn
+
+ */
+
+ /* floats 
+ preferer flex
+ 
+ */
